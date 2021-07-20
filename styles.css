@@ -191,6 +191,12 @@ a {
 }
 
 @media (max-width: 1000px) {
+  .header {
+    background-image: url("./images/bg-hero-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
   .hero {
     grid-template-columns: 1fr;
   }
