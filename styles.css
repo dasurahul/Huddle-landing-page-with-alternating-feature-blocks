@@ -167,7 +167,7 @@ a {
 }
 
 .filterit {
-  width: 180px;
+  width: 150px;
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(161deg)
     brightness(100%) contrast(100%);
   margin-bottom: 40px;
