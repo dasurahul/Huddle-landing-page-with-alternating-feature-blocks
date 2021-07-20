@@ -20,6 +20,11 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 .header {
   background-image: url("./images/bg-hero-desktop.svg");
   background-color: var(--very-pale-cyan);
@@ -162,6 +167,12 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.col {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
 .flex {
   display: flex;
   align-items: center;
@@ -184,6 +195,7 @@ body {
   }
   .card {
     flex-direction: column;
+    text-align: center;
   }
   .card2 .card__left {
     order: 0;
